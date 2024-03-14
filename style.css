@@ -1,13 +1,12 @@
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:wght@700&display=swap');
-</style>
+<style>@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:wght@700&display=swap');
 
-* {
+</style>* {
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-body{
+
+body {
     background-color: black;
 }
 
@@ -68,85 +67,130 @@ nav button {
     gap: 23px;
     padding: 0 30px;
 }
-.hero>:nth-child(1){
-    font-family: 'poppins',sans-serif;
+
+.hero>:nth-child(1) {
+    font-family: 'poppins', sans-serif;
     font-weight: bolder;
     font-size: 48px;
     text-align: center;
 }
-.hero> :nth-child(2){
+
+.hero> :nth-child(2) {
     font-weight: 400;
     font-size: 24px;
     text-align: center;
 }
-.hero> :nth-child(3){
+
+.hero> :nth-child(3) {
     font-weight: 400;
     font-size: 20px;
     text-align: center;
 }
-.separation{
-    height: 11px;
+
+.separation {
+    height: 5px;
     background-color: grey;
+    margin-top: 30px;
 }
-.btn{
+
+.btn {
     padding: 3px 8px;
-    font-family: 'poppins',sans-serif;
+    font-family: 'poppins', sans-serif;
     font-weight: 400;
-    color:white;
-    background-color: rgba(248,243,243,0.342);
+    color: white;
+    background-color: rgba(248, 243, 243, 0.342);
     border: 1px solid white;
     cursor: pointer;
 }
+
 .btn-red {
     font-weight: 400;
     background-color: red;
-    color:white;
+    color: white;
     padding: 3px 24px;
-    font-size :20px;
+    font-size: 20px;
     border-radius: 4px;
 }
-.btn-red-sm{
+
+.btn-red-sm {
     background-color: red;
     color: white;
 }
-.main input{
+
+.main input {
     padding: 7px 101px 8px 14px;
     color: white;
-    font-size :12px;
+    font-size: 12px;
     border-radius: 4px;
-    background-color: rgba(23,23,23,0.7);
+    background-color: rgba(23, 23, 23, 0.7);
     border: 1px solid rgba(250, 245, 245, 0.5);
 }
-.hero-buttons{
+
+.hero-buttons {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 16px;
 }
+
 .first {
     display: flex;
     justify-content: center;
     max-width: 70vw;
-    margin:auto;
-    color:white;
+    margin: auto;
+    color: white;
     justify-content: center;
     align-items: center;
 }
-.secImg img{
-    width:30vw;
+
+.secImg img {
+    width: 30vw;
 }
-#video1{
+
+#video1 {
     position: absolute;
 }
-.secImg{
-    position :relative;
+
+.secImg {
+    position: relative;
     display: flex;
 }
-section.first>div:nth-child(1){
+
+section.first>div:nth-child(1) {
     font-size: 48px;
     font-weight: bolder;
 }
 
-span2{
+#span2 {
     font-size: 24px;
+}
+
+#span1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+.faq h2{
+    text-align: center;
+    font-size: 48px;
+}
+.faq{
+    background: black;
+    color: white;
+    padding: 34px;
+    font-size: 24px;
+}
+.faq-box:hover{
+    background-color: rgb(153, 146, 146);
+}
+.faq-box {
+    transition: all 1s ease-out;
+    display: flex;
+    background-color: #2d2d2d;
+    padding: 24px;
+    width:100vw;
+    max-width: 60vw;
+    margin: 8px auto;
+    justify-content: space-between;
+    cursor: pointer;
+
 }
