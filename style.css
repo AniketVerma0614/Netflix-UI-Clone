@@ -84,7 +84,7 @@ nav button {
     font-size: 20px;
     text-align: center;
 }
-.seperation{
+.separation{
     height: 11px;
     background-color: grey;
 }
@@ -122,4 +122,31 @@ nav button {
     align-items: center;
     justify-content: center;
     gap: 16px;
+}
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin:auto;
+    color:white;
+    justify-content: center;
+    align-items: center;
+}
+.secImg img{
+    width:30vw;
+}
+#video1{
+    position: absolute;
+}
+.secImg{
+    position :relative;
+    display: flex;
+}
+section.first>div:nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+span2{
+    font-size: 24px;
 }
