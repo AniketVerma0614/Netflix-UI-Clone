@@ -41,7 +41,7 @@ nav {
 
 nav img {
     color: red;
-    width: 114px;
+    width: 130px;
     position: relative;
     z-index: 10;
 }
@@ -192,5 +192,32 @@ section.first>div:nth-child(1) {
     margin: 8px auto;
     justify-content: space-between;
     cursor: pointer;
+}
+footer{
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+}
+footer.questions{
+    padding: 34px 0;
+}
+.footer{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+ color: white;
+ max-width: 60vw;
+ margin:auto;
+ padding: 14px;
 
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+.footer a{
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
 }
